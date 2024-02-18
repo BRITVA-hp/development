@@ -1,1 +1,45 @@
-//.main
+.main
+  padding: 120px 20px 230px
+  background: url("../img/main/incweb.png") no-repeat right bottom
+  position: relative
+  overflow: hidden
+  &__cat
+    position: absolute
+    left: calc(50% + 80px)
+    bottom: -220px
+  &__box
+    max-width: 770px
+  &__title
+    font-family: 'GothamPro', sans-serif
+    font-weight: 700
+    font-size: 80px
+    line-height: 120%
+    letter-spacing: -0.05em
+    color: #07142e
+    margin-bottom: 100px
+    span
+      font-size: 75px
+      font-weight: 900
+      line-height: 120%
+      text-transform: uppercase
+      color: #27bb62
+      transform: translateY(15px)
+      display: inline-block
+  &__row
+    display: flex
+    flex-wrap: wrap
+    gap: 30px 20px
+  &__item
+    display: flex
+    align-items: center
+    border: 1px solid #309dda
+    border-radius: 25px
+    padding: 6px 20px 6px 6px
+    gap: 15px
+    font-weight: 400
+    font-size: 18px
+    line-height: 100%
+    text-transform: uppercase
+    white-space: nowrap
+    &--dark
+      border-color: #1e5bb6

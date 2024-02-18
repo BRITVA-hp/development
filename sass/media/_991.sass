@@ -1,1 +1,110 @@
-//@media screen and (max-width: 991px)
+@media screen and (max-width: 991px)
+  .container
+    max-width: 800px
+  .button
+    font-size: 14px
+    padding: 12px 0
+    border-radius: 5px
+  .logo
+    &__title
+      font-size: 38px
+      span
+        font-size: 24px
+        letter-spacing: -5px
+    &__text
+      font-size: 14px
+      top: 12px
+      left: -5px
+  .section
+    &__title
+      font-size: 28px
+      margin-bottom: 60px
+      span
+        font-size: 23px
+  //settings
+
+  .advantages
+    padding-bottom: 240px
+    padding-top: 40px
+    &__video
+      width: 250px
+      height: 220px
+    &__title
+      margin-bottom: 35px
+    &__card
+      width: 180px
+      &__num
+        width: 30px
+        height: 30px
+        font-size: 14px
+      &__title
+        font-size: 25px
+        margin-bottom: 15px
+
+  .quest
+    margin-bottom: 60px
+    &__img
+      position: static
+      justify-content: center
+      transform: translateY(20px)
+    &__container
+      padding: 20px
+    &__box
+      padding: 40px 20px 0
+    &__title
+      font-size: 23px
+      text-align: center
+    &__text
+      font-size: 18px
+      text-align: center
+      margin-bottom: 17px
+    &__button
+      max-width: 260px
+      margin: auto
+
+  .main
+    padding: 75px 20px 255px
+    background: url("../img/main/incwebM.png") no-repeat center bottom
+    &__cat
+      left: calc(50% - 122px)
+      bottom: -85px
+    &__box
+      display: flex
+      flex-direction: column
+      align-items: center
+    &__item
+      &--2, &--4
+        align-self: flex-end
+        flex-direction: row-reverse
+        padding: 5px 5px 5px 15px
+    &__row
+      gap: 15px
+      flex-direction: column
+      align-items: flex-start
+      max-width: 315px
+    &__title
+      font-size: 35px
+      margin-bottom: 30px
+      span
+        font-size: 30px
+        transform: translateY(6px)
+
+  .menu
+    display: flex
+
+  .header
+    padding: 0 20px
+    &__row
+      align-items: flex-end
+    &__logo
+      margin-bottom: 0
+    &__nav
+      display: none
+    &__wrap
+      display: none
+    &__block
+      display: flex
+      align-items: center
+      gap: 30px
+    &__burger
+      display: flex

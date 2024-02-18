@@ -4,7 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffa9690e-ae05-45b5-883b-17dfcc022837" name="Changes" comment="" />
+    <list default="true" id="ffa9690e-ae05-45b5-883b-17dfcc022837" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/sass/templates/_advantages.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/templates/_menu.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/templates/_quest.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Helvetica/Helvetica-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Helvetica/Helvetica-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Helvetica/Helvetica-BoldOblique.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/Helvetica/Helvetica-BoldOblique.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Helvetica/Helvetica-BoldOblique.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Helvetica/Helvetica-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Helvetica/Helvetica-Light.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Helvetica/Helvetica-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/Helvetica/Helvetica-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_grid.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_grid.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_settings.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_settings.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/media/_1440.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/media/_1440.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/media/_991.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/media/_991.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/media/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/media/_media.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/templates/_header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/templates/_header.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/templates/_main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/templates/_main.sass" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,23 +50,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/britva/sites/layouts/development",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/boris/Sites/layouts/MLEADS/development&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-php-predefined-ba97393d7c68-6f8e3395a2b4-com.jetbrains.php.sharedIndexes-PS-233.14015.96" />
+        <option value="bundled-php-predefined-ba97393d7c68-6f8e3395a2b4-com.jetbrains.php.sharedIndexes-PS-233.14475.35" />
       </set>
     </attachedChunks>
   </component>
@@ -69,6 +94,8 @@
       <workItem from="1707564760744" duration="23000" />
       <workItem from="1707564785942" duration="539000" />
       <workItem from="1707895066027" duration="4344000" />
+      <workItem from="1708247660214" duration="14988000" />
+      <workItem from="1708282657614" duration="3805000" />
     </task>
     <servers />
   </component>

@@ -15,12 +15,180 @@
 
   <link rel="stylesheet" href="css/style.css">
 
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+
   <title>IncWEB РАЗРАБАТЫВАЕМ САЙТЫ под ключ</title>
 
 </head>
 <body>
 
+  <header class="section header">
+    <div class="container header__container">
+      <div class="header__row">
 
+        <div class="header__box">
+          <div class="logo header__logo">
+            <p class="logo__text">Inc</p>
+            <p class="logo__title"><span>.</span> WEB</p>
+          </div>
+
+          <nav class="header__nav">
+            <a href="#" class="header__nav__link header__nav__link--active">Главная</a>
+            <a href="#" class="header__nav__link">Кейсы</a>
+            <a href="#" class="header__nav__link">Контакты</a>
+          </nav>
+        </div>
+
+        <div class="header__wrap">
+          <a href="tel:+79652834817" class="header__tel">
+            <img src="img/tel.png" alt="phone">
+            <span>+7 (965) 283-48-17</span>
+          </a>
+
+          <button class="button header__button">Заказать звонок</button>
+        </div>
+
+        <div class="header__block">
+          <img src="img/telM.png" alt="telephone" class="header__tel-mob">
+          <div class="header__burger">
+            <div class="header__burger__line header__burger__line--1"></div>
+            <div class="header__burger__line header__burger__line--2"></div>
+            <div class="header__burger__line header__burger__line--3"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+  <!-- /.section header -->
+
+  <main>
+    <section class="section main">
+      <div class="container main__container">
+        <div class="main__box">
+          <h1 class="main__title">РАЗРАБАТЫВАЕМ <br> САЙТЫ <span>под ключ</span></h1>
+          <div class="main__row">
+            <div class="main__item main__item--1">
+              <img src="img/main/logo1.svg" alt="marketing">
+              <span>маркетинговая проработка</span>
+            </div>
+            <div class="main__item main__item--dark main__item--2">
+              <img src="img/main/logo2.svg" alt="design">
+              <span>запоминающийся дизайн</span>
+            </div>
+            <div class="main__item main__item--dark main__item--3">
+              <img src="img/main/logo3.svg" alt="payment">
+              <span>оплата по факту</span>
+            </div>
+            <div class="main__item main__item--4">
+              <img src="img/main/logo4.svg" alt="all tasks">
+              <span>сайты для любых задач</span>
+            </div>
+          </div>
+        </div>
+
+        <picture>
+          <source media="(max-width: 991px)" srcset="img/main/catM.png">
+          <source media="(max-width: 1440px)" srcset="img/main/catC.png">
+          <img class="main__cat" src="img/main/cat.png" alt="cat">
+        </picture>
+
+      </div>
+    </section>
+    <!-- /.section main -->
+
+    <section class="section quest">
+      <div class="container quest__container">
+        <div class="quest__box">
+          <h2 class="quest__title">Рассчитайте стоимость сайта,</h2>
+          <p class="quest__text">ответив на 5 вопросов</p>
+          <button class="button quest__button">Рассчитать</button>
+          <picture class="quest__img">
+            <source media="(max-width: 1440px)" srcset="img/quest/imgM.png">
+            <img src="img/quest/img.png" alt="price">
+          </picture>
+        </div>
+      </div>
+    </section>
+    <!-- /.section quest -->
+
+    <section class="section advantages">
+      <div class="container advantages__container">
+        <h3 class="section__title advantages__title">Почему стоит <br> <span>работать с нами?</span></h3>
+
+        <div class="advantages__row">
+
+          <div class="advantages__card">
+            <div class="advantages__card__num">01</div>
+            <p class="advantages__card__title">Прозрачность этапов</p>
+            <p class="advantages__card__text">Вы получаете отчеты в виде конкретных результатов на каждом этапе нашей работы</p>
+          </div>
+
+          <div class="advantages__card">
+            <div class="advantages__card__num">02</div>
+            <p class="advantages__card__title">Оплата по факту!</p>
+            <p class="advantages__card__text">Выставляем фиксированную цену под ключ. Делим проект на этапы, оплата по факту их завершения.</p>
+          </div>
+
+          <div class="advantages__card">
+            <div class="advantages__card__num">03</div>
+            <p class="advantages__card__title">Всегда на связи</p>
+            <p class="advantages__card__text">Работаем в выходные и праздники. Личный менеджер на связи в удобное для вас время.</p>
+          </div>
+
+          <div class="advantages__card">
+            <div class="advantages__card__num">04</div>
+            <p class="advantages__card__title">Гарантия сроков</p>
+            <p class="advantages__card__text">Завершение работы точно в срок. За каждый день просрочки снижаем наше вознаграждения.</p>
+          </div>
+
+          <div class="advantages__card">
+            <div class="advantages__card__num">05</div>
+            <p class="advantages__card__title">Оригинальный дизайн</p>
+            <p class="advantages__card__text">Не используем шаблонные решения. Дизайн и верстка для каждого проекта индивидуальны.</p>
+          </div>
+
+          <div class="advantages__card">
+            <div class="advantages__card__num">06</div>
+            <p class="advantages__card__title">Агентство полного цикла</p>
+            <p class="advantages__card__text">Добиваемся стабильного роста заявок, подбирая наиболее подходящие маркетинговые инструменты.</p>
+          </div>
+
+        </div>
+
+        <video playsinline autoplay muted loop class="video-bg advantages__video lozad" data-poster="img/index/main/bgPre.jpg">
+          <source data-src="img/advantages/video.mp4" type="video/mp4">
+        </video>
+
+      </div>
+    </section>
+    <!-- /.section advantages -->
+
+  </main>
+
+  <div class="menu">
+    <div class="menu__dialog">
+      <div class="menu__content">
+        
+        <div class="menu__header">
+          <div class="logo">
+            <p class="logo__text">Inc</p>
+            <p class="logo__title"><span>.</span> WEB</p>
+          </div>
+          <img src="img/close.svg" alt="close" class="menu__close">
+        </div>
+        <nav class="menu__nav">
+          <a href="#" class="menu__link menu__link--active">Главная</a>
+          <a href="#" class="menu__link">Кейсы</a>
+          <a href="#" class="menu__link">Контакты</a>
+        </nav>
+        <a href="tel:+79652834817" class="menu__tel">
+          <img src="img/telM.png" alt="telephone">
+          <span>+7 (965) 283-48-17</span>
+        </a>
+      </div>
+    </div>
+  </div>
 
   <script src="js/script.js"></script>
 

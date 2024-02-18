@@ -1,0 +1,72 @@
+.menu
+  position: fixed
+  z-index: 199
+  left: 0
+  right: 0
+  top: 0
+  bottom: 0
+  display: none
+  align-items: flex-start
+  justify-content: flex-end
+  background: linear-gradient(0deg, rgba(0, 17, 37, 0.4), rgba(0, 17, 37, 0.4))
+  backdrop-filter: blur(10px)
+  opacity: 0
+  visibility: hidden
+  transition: 0.3s
+  overflow: hidden
+  &--active
+    opacity: 1
+    visibility: visible
+    .menu__dialog
+      transform: none
+  &__dialog
+    transition: 0.3s
+    transform: translateX(100%)
+    width: 100%
+    max-width: 350px
+    background: #fdfdfd
+    height: 100%
+    padding: 20px
+  &__content
+    box-shadow: 0 3px 4px 0 rgba(30, 91, 182, 0.3)
+    background: rgba(48, 157, 218, 0.1)
+    height: 100%
+    padding: 20px
+    overflow: auto
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+  &__close
+    width: 20px
+    cursor: pointer
+  &__header
+    display: flex
+    align-items: center
+    justify-content: space-between
+  &__nav
+    display: flex
+    flex-direction: column
+    gap: 30px
+    align-items: center
+    margin: 30px 0
+  &__link
+    font-weight: 400
+    font-size: 15px
+    line-height: 120%
+    text-align: center
+    color: #102770
+    text-decoration: none
+    &--active
+      padding-bottom: 15px
+      border-bottom: 3px solid #1e5bb6
+  &__tel
+    display: flex
+    gap: 10px
+    align-items: flex-end
+    justify-content: center
+    font-weight: 400
+    font-size: 18px
+    line-height: 120%
+    text-transform: uppercase
+    color: #07142e
+    text-decoration: none
