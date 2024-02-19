@@ -1,0 +1,97 @@
+.steps
+  margin-bottom: 120px
+  background: #fff
+  padding: 60px 20px
+  &__interface
+    display: flex
+    flex-direction: column
+    gap: 50px
+    position: absolute
+    right: 0
+    top: 50%
+    transform: translateY(-50%)
+  &__button
+    cursor: pointer
+    &--inactive
+      opacity: 0.3
+  &__more
+    display: flex
+    flex-direction: column
+    align-items: center
+    gap: 10px
+    font-weight: 700
+    font-style: italic
+    font-size: 18px
+    line-height: 120%
+    text-transform: uppercase
+    text-align: center
+    color: #27bb62
+    cursor: pointer
+    width: min-content
+    margin-left: auto
+    margin-right: 160px
+  &__row
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    padding-right: 80px
+    position: relative
+  &__video
+    width: 120px
+    height: 120px
+    position: static
+    object-fit: cover
+  &__block
+    width: 100%
+    max-width: 680px
+    &__row
+      display: flex
+      align-items: center
+      justify-content: space-between
+      margin-bottom: 78px
+    &__box
+      max-width: 314px
+      &__title
+        font-weight: 700
+        font-size: 18px
+        line-height: 120%
+        margin-bottom: 20px
+      &__text
+        font-weight: 400
+        font-size: 14px
+        line-height: 120%
+    &__title
+      font-family: 'FuturaPT', sans-serif
+      font-weight: 700
+      font-size: 40px
+      line-height: 120%
+      color: #102770
+      margin-bottom: 12px
+  &__title
+    margin-bottom: 55px
+    span
+      display: inline-block
+      transform: translateY(20px)
+  &__subtitle
+    font-weight: 400
+    font-size: 20px
+    line-height: 120%
+    text-transform: uppercase
+    margin-bottom: 60px
+  &__box
+    &__row
+      display: flex
+      justify-content: space-between
+  &__progress
+    display: flex
+    align-items: center
+    gap: 15px
+    &__item
+      width: 10px
+      height: 10px
+      border-radius: 50%
+      background: rgba(30, 91, 182, 0.25)
+      &--active
+        width: 18px
+        height: 18px
+        background: #1e5bb6

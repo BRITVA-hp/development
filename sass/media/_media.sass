@@ -1,9 +1,24 @@
 
 @import "1440"
 
+@media screen and (max-width: 1200px)
+  .steps
+    &__block
+      max-width: 450px
+
 @import "991"
 
 @media screen and (max-width: 767px)
+  .steps
+    //&__subtitle
+    //  max-width: 220px
+    //  margin: 0 auto 40px
+    &__title
+      max-width: 145px
+      margin: 0 auto 20px
+      span
+        transform: none
+
   .advantages
     &__row
       flex-direction: column
@@ -18,5 +33,8 @@
         margin-right: auto
 
 @media screen and (max-width: 575px)
+  .offer
+    padding: 0
+
   .quest
     padding: 0
