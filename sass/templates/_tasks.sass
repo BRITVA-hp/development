@@ -1,0 +1,90 @@
+.tasks
+  padding: 0
+  margin-bottom: 120px
+  &__title
+    font-family: 'GothamPro', sans-serif
+    font-weight: 700
+    font-size: 40px
+    line-height: 120%
+    letter-spacing: -0.05em
+    text-transform: uppercase
+    text-align: center
+    margin-bottom: 5px
+    padding: 0 20px
+  &__subtitle
+    font-family: 'GothamPro', sans-serif
+    font-weight: 400
+    font-size: 35px
+    line-height: 120%
+    text-transform: uppercase
+    text-align: center
+    color: #ab3bef
+    margin-bottom: 80px
+    padding: 0 20px
+  &__menu
+    &__item
+      font-family: 'FuturaPT', sans-serif
+      font-weight: 700
+      font-size: 40px
+      line-height: 120%
+      color: #fdfdfd
+      opacity: 0.5
+      margin-bottom: 25px
+      &:last-child
+        margin-bottom: 0
+      &--active
+        opacity: 1
+  &__bg
+    position: absolute
+    z-index: 1
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover
+    filter: blur(3px)
+  &__container
+    position: relative
+    padding: 0 20px
+    &::before
+      content: ''
+      position: absolute
+      z-index: 2
+      left: 0
+      right: 0
+      top: 0
+      bottom: 0
+      background: rgba(16, 39, 112, 0.5)
+  &__content
+    position: relative
+    z-index: 3
+    max-width: 1600px
+    margin: auto
+    padding: 140px 0
+  &__row
+    display: flex
+    align-items: center
+    justify-content: space-between
+    gap: 30px
+  &__text
+    font-weight: 400
+    font-size: 20px
+    line-height: 120%
+    color: #fdfdfd
+    max-width: 600px
+  &__box
+    display: flex
+    align-items: center
+    justify-content: space-between
+    gap: 20px
+    width: calc(50% - 15px)
+  &__arrows
+    display: flex
+    flex-direction: column
+    gap: 50px
+  &__arrow
+    cursor: pointer
+    &--inactive
+      opacity: 0.25

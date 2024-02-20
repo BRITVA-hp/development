@@ -1,0 +1,71 @@
+.quiz
+  &__radio
+    cursor: pointer
+  &__row
+    display: flex
+    align-items: stretch
+    justify-content: space-between
+  &__box
+    border-radius: 7px
+    background: rgba(48, 157, 218, 0.1)
+    padding: 40px 80px 30px
+    &__row
+      display: grid
+      gap: 40px
+      grid-template-columns: repeat(4, 120px)
+    &__question
+      font-family: 'GothamPro', sans-serif
+      font-weight: 700
+      font-size: 25px
+      line-height: 120%
+      letter-spacing: -0.03em
+      text-transform: uppercase
+      text-align: center
+      margin-bottom: 45px
+    &__header
+      display: flex
+      justify-content: space-between
+      margin-bottom: 35px
+    &__title
+      font-family: 'GothamPro', sans-serif
+      font-weight: 900
+      font-size: 25px
+      line-height: 120%
+      letter-spacing: -0.03em
+      text-transform: uppercase
+      color: #102770
+    &__step
+      display: flex
+      align-items: center
+      gap: 12px
+      font-weight: 400
+      font-size: 14px
+      line-height: 120%
+      color: #102770
+      span
+        width: 40px
+        height: 40px
+        display: flex
+        align-items: center
+        justify-content: center
+        border-radius: 50%
+        background: #94e7fb
+        font-size: 16px
+        line-height: 120%
+        font-weight: 700
+        font-style: italic
+  &__progress
+    height: 5px
+    background: #fff
+    width: 100%
+    border-radius: 3px
+    margin-bottom: 45px
+    position: relative
+    overflow: hidden
+    &__inner
+      position: absolute
+      left: 0
+      top: 0
+      height: 100%
+      width: 30%
+      background: #94e7fb
