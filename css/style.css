@@ -541,7 +541,7 @@ body {
 .section__title {
   font-family: "GothamPro", sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 55px;
   line-height: 120%;
   color: #07142e;
@@ -554,8 +554,6 @@ body {
 }
 .section__title span {
   color: #ab3bef;
-  font-size: 50px;
-  font-weight: 900;
 }
 
 .container {
@@ -585,132 +583,132 @@ body {
 }
 @keyframes noise-anim {
   0% {
-    clip: rect(89px, 9999px, 11px, 0);
+    clip: rect(12px, 9999px, 35px, 0);
   }
   5% {
-    clip: rect(2px, 9999px, 63px, 0);
+    clip: rect(95px, 9999px, 21px, 0);
   }
   10% {
-    clip: rect(11px, 9999px, 27px, 0);
+    clip: rect(91px, 9999px, 16px, 0);
   }
   15% {
-    clip: rect(28px, 9999px, 70px, 0);
+    clip: rect(77px, 9999px, 17px, 0);
   }
   20% {
-    clip: rect(62px, 9999px, 38px, 0);
+    clip: rect(29px, 9999px, 85px, 0);
   }
   25% {
-    clip: rect(38px, 9999px, 52px, 0);
+    clip: rect(31px, 9999px, 81px, 0);
   }
   30% {
-    clip: rect(53px, 9999px, 64px, 0);
+    clip: rect(57px, 9999px, 50px, 0);
   }
   35% {
-    clip: rect(100px, 9999px, 5px, 0);
+    clip: rect(80px, 9999px, 62px, 0);
   }
   40% {
-    clip: rect(9px, 9999px, 44px, 0);
+    clip: rect(8px, 9999px, 25px, 0);
   }
   45% {
-    clip: rect(79px, 9999px, 55px, 0);
+    clip: rect(94px, 9999px, 60px, 0);
   }
   50% {
-    clip: rect(15px, 9999px, 23px, 0);
+    clip: rect(55px, 9999px, 47px, 0);
   }
   55% {
-    clip: rect(67px, 9999px, 50px, 0);
+    clip: rect(64px, 9999px, 54px, 0);
   }
   60% {
-    clip: rect(3px, 9999px, 26px, 0);
+    clip: rect(87px, 9999px, 7px, 0);
   }
   65% {
-    clip: rect(14px, 9999px, 40px, 0);
+    clip: rect(21px, 9999px, 19px, 0);
   }
   70% {
-    clip: rect(69px, 9999px, 28px, 0);
+    clip: rect(75px, 9999px, 42px, 0);
   }
   75% {
-    clip: rect(9px, 9999px, 64px, 0);
+    clip: rect(57px, 9999px, 96px, 0);
   }
   80% {
-    clip: rect(33px, 9999px, 19px, 0);
+    clip: rect(22px, 9999px, 83px, 0);
   }
   85% {
-    clip: rect(28px, 9999px, 30px, 0);
+    clip: rect(32px, 9999px, 11px, 0);
   }
   90% {
-    clip: rect(23px, 9999px, 25px, 0);
+    clip: rect(63px, 9999px, 71px, 0);
   }
   95% {
-    clip: rect(82px, 9999px, 22px, 0);
+    clip: rect(53px, 9999px, 31px, 0);
   }
   100% {
-    clip: rect(42px, 9999px, 37px, 0);
+    clip: rect(81px, 9999px, 42px, 0);
   }
 }
 @keyframes noise-anim-2 {
   0% {
-    clip: rect(22px, 9999px, 89px, 0);
+    clip: rect(31px, 9999px, 6px, 0);
   }
   5% {
-    clip: rect(24px, 9999px, 78px, 0);
+    clip: rect(12px, 9999px, 55px, 0);
   }
   10% {
-    clip: rect(11px, 9999px, 48px, 0);
+    clip: rect(25px, 9999px, 17px, 0);
   }
   15% {
-    clip: rect(5px, 9999px, 54px, 0);
+    clip: rect(64px, 9999px, 43px, 0);
   }
   20% {
-    clip: rect(20px, 9999px, 19px, 0);
+    clip: rect(36px, 9999px, 45px, 0);
   }
   25% {
-    clip: rect(80px, 9999px, 38px, 0);
+    clip: rect(17px, 9999px, 10px, 0);
   }
   30% {
-    clip: rect(94px, 9999px, 50px, 0);
+    clip: rect(69px, 9999px, 89px, 0);
   }
   35% {
-    clip: rect(18px, 9999px, 68px, 0);
+    clip: rect(19px, 9999px, 14px, 0);
   }
   40% {
-    clip: rect(28px, 9999px, 39px, 0);
+    clip: rect(69px, 9999px, 82px, 0);
   }
   45% {
-    clip: rect(32px, 9999px, 40px, 0);
+    clip: rect(82px, 9999px, 11px, 0);
   }
   50% {
-    clip: rect(6px, 9999px, 78px, 0);
+    clip: rect(55px, 9999px, 62px, 0);
   }
   55% {
-    clip: rect(57px, 9999px, 43px, 0);
+    clip: rect(67px, 9999px, 24px, 0);
   }
   60% {
-    clip: rect(93px, 9999px, 8px, 0);
+    clip: rect(26px, 9999px, 52px, 0);
   }
   65% {
-    clip: rect(28px, 9999px, 5px, 0);
+    clip: rect(40px, 9999px, 24px, 0);
   }
   70% {
-    clip: rect(34px, 9999px, 33px, 0);
+    clip: rect(7px, 9999px, 54px, 0);
   }
   75% {
-    clip: rect(61px, 9999px, 7px, 0);
+    clip: rect(96px, 9999px, 32px, 0);
   }
   80% {
-    clip: rect(89px, 9999px, 68px, 0);
+    clip: rect(67px, 9999px, 90px, 0);
   }
   85% {
-    clip: rect(50px, 9999px, 93px, 0);
+    clip: rect(3px, 9999px, 55px, 0);
   }
   90% {
-    clip: rect(62px, 9999px, 66px, 0);
+    clip: rect(58px, 9999px, 83px, 0);
   }
   95% {
-    clip: rect(30px, 9999px, 7px, 0);
+    clip: rect(24px, 9999px, 40px, 0);
   }
   100% {
-    clip: rect(3px, 9999px, 72px, 0);
+    clip: rect(40px, 9999px, 98px, 0);
   }
 }
 .header {
@@ -805,7 +803,7 @@ body {
 }
 .main__title {
   font-family: "GothamPro", sans-serif;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 80px;
   line-height: 120%;
   letter-spacing: -0.05em;
@@ -813,13 +811,8 @@ body {
   margin-bottom: 100px;
 }
 .main__title span {
-  font-size: 75px;
-  font-weight: 900;
-  line-height: 120%;
   text-transform: uppercase;
   color: #27bb62;
-  transform: translateY(15px);
-  display: inline-block;
 }
 .main__row {
   display: flex;
@@ -860,7 +853,7 @@ body {
 }
 .quest__title {
   font-family: "GothamPro", sans-serif;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 40px;
   line-height: 120%;
   letter-spacing: -0.05em;
@@ -870,7 +863,7 @@ body {
 }
 .quest__text {
   font-family: "GothamPro", sans-serif;
-  font-weight: 400;
+  font-weight: 900;
   font-size: 35px;
   line-height: 120%;
   text-transform: uppercase;
@@ -1073,10 +1066,6 @@ body {
 .steps__title {
   margin-bottom: 55px;
 }
-.steps__title span {
-  display: inline-block;
-  transform: translateY(20px);
-}
 .steps__subtitle {
   font-weight: 400;
   font-size: 20px;
@@ -1212,25 +1201,26 @@ body {
 }
 .tasks__title {
   font-family: "GothamPro", sans-serif;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 40px;
   line-height: 120%;
   letter-spacing: -0.05em;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 5px;
+}
+.tasks__title-box {
   padding: 0 20px;
+  margin-bottom: 80px;
 }
 .tasks__subtitle {
   font-family: "GothamPro", sans-serif;
-  font-weight: 400;
+  font-weight: 900;
   font-size: 35px;
   line-height: 120%;
   text-transform: uppercase;
   text-align: center;
   color: #ab3bef;
-  margin-bottom: 80px;
-  padding: 0 20px;
 }
 .tasks__menu__item {
   font-family: "FuturaPT", sans-serif;
@@ -1337,7 +1327,7 @@ body {
 }
 .info__title {
   font-family: "GothamPro", sans-serif;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 40px;
   line-height: 120%;
   letter-spacing: -0.05em;
@@ -1347,7 +1337,7 @@ body {
 }
 .info__subtitle {
   font-family: "GothamPro", sans-serif;
-  font-weight: 400;
+  font-weight: 900;
   font-size: 35px;
   line-height: 120%;
   text-transform: uppercase;
@@ -1375,10 +1365,6 @@ body {
 .we__title {
   margin-bottom: 90px;
 }
-.we__title span {
-  display: inline-block;
-  transform: translateY(20px);
-}
 .we__text {
   font-weight: 400;
   font-size: 20px;
@@ -1393,13 +1379,49 @@ body {
   max-width: none;
 }
 
+.quiz {
+  margin-bottom: 120px;
+}
+.quiz__title {
+  margin-bottom: 130px;
+}
+.quiz__img {
+  display: block;
+  margin: auto;
+}
 .quiz__radio {
   cursor: pointer;
+  text-align: center;
+}
+.quiz__radio__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.quiz__radio__text {
+  font-size: 14px;
+}
+.quiz__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+}
+.quiz__button {
+  max-width: 160px;
+  background: transparent;
+  border: 2px solid #1e5bb6;
+  color: #1e5bb6;
+}
+.quiz__button:hover {
+  color: #fff;
+  background: #1e5bb6;
 }
 .quiz__row {
   display: flex;
-  align-items: stretch;
   justify-content: space-between;
+  gap: 30px;
 }
 .quiz__box {
   border-radius: 7px;
@@ -1410,6 +1432,8 @@ body {
   display: grid;
   gap: 40px;
   grid-template-columns: repeat(4, 120px);
+  margin-bottom: 58px;
+  justify-content: center;
 }
 .quiz__box__question {
   font-family: "GothamPro", sans-serif;
@@ -1683,8 +1707,14 @@ body {
   .section__title {
     font-size: 40px;
   }
-  .section__title span {
-    font-size: 36px;
+  .quiz {
+    margin-bottom: 80px;
+  }
+  .quiz__box {
+    padding: 40px;
+  }
+  .quiz__box__row {
+    gap: 20px;
   }
   .we {
     text-align: center;
@@ -1734,6 +1764,15 @@ body {
   }
   .tasks {
     margin-bottom: 80px;
+  }
+  .tasks__title {
+    font-size: 35px;
+  }
+  .tasks__subtitle {
+    font-size: 30px;
+  }
+  .tasks__title-box {
+    margin-bottom: 60px;
   }
   .tasks__content {
     max-width: 1200px;
@@ -1905,10 +1944,6 @@ body {
     font-size: 58px;
     margin-bottom: 60px;
   }
-  .main__title span {
-    font-size: 52px;
-    transform: translateY(10px);
-  }
   .header__wrap {
     gap: 25px;
   }
@@ -1927,6 +1962,16 @@ body {
   }
 }
 @media screen and (max-width: 1200px) {
+  .quiz__row {
+    flex-direction: column;
+  }
+  .quiz__title {
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .quiz__img {
+    display: none;
+  }
   .steps__block {
     max-width: 450px;
   }
@@ -1939,6 +1984,13 @@ body {
     font-size: 14px;
     padding: 12px 0;
     border-radius: 5px;
+  }
+  .button--back {
+    width: 40px;
+    height: 40px;
+  }
+  .button--back img {
+    width: 20px;
   }
   .logo__title {
     font-size: 38px;
@@ -1954,10 +2006,46 @@ body {
   }
   .section__title {
     font-size: 28px;
+  }
+  .quiz {
     margin-bottom: 60px;
   }
-  .section__title span {
-    font-size: 23px;
+  .quiz__button {
+    padding: 0;
+    height: 40px;
+  }
+  .quiz__buttons {
+    gap: 14px;
+  }
+  .quiz__radio__img {
+    margin-bottom: 12px;
+  }
+  .quiz__radio__text {
+    font-size: 10px;
+  }
+  .quiz__box__row {
+    grid-template-columns: repeat(auto-fill, 90px);
+    gap: 12px;
+    margin: 0 auto 50px;
+    max-width: 396px;
+  }
+  .quiz__box__question {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  .quiz__box__header {
+    margin-bottom: 30px;
+  }
+  .quiz__box__progress {
+    margin-bottom: 35px;
+  }
+  .quiz__box__title {
+    font-size: 20px;
+  }
+  .quiz__box__step span {
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
   }
   .we {
     margin-bottom: 60px;
@@ -1992,6 +2080,23 @@ body {
   }
   .tasks {
     margin-bottom: 60px;
+  }
+  .tasks__title-box {
+    margin-bottom: 40px;
+    max-width: 400px;
+  }
+  .tasks__title {
+    font-size: 20px;
+    display: inline;
+    color: #102770;
+  }
+  .tasks__subtitle {
+    display: inline;
+    font-size: 20px;
+    color: #102770;
+  }
+  .tasks__subtitle span {
+    color: #ab3bef;
   }
   .tasks__arrows {
     flex-direction: row;
@@ -2230,10 +2335,6 @@ body {
     font-size: 35px;
     margin-bottom: 30px;
   }
-  .main__title span {
-    font-size: 30px;
-    transform: translateY(6px);
-  }
   .menu {
     display: flex;
   }
@@ -2285,6 +2386,15 @@ body {
   }
 }
 @media screen and (max-width: 575px) {
+  .quiz {
+    padding: 0;
+  }
+  .quiz__title {
+    padding: 0 20px;
+  }
+  .quiz__box {
+    padding: 40px 20px;
+  }
   .info {
     padding: 0;
   }

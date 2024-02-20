@@ -5,6 +5,11 @@
     font-size: 14px
     padding: 12px 0
     border-radius: 5px
+    &--back
+      width: 40px
+      height: 40px
+      img
+        width: 20px
   .logo
     &__title
       font-size: 38px
@@ -18,10 +23,40 @@
   .section
     &__title
       font-size: 28px
-      margin-bottom: 60px
-      span
-        font-size: 23px
   //settings
+
+  .quiz
+    margin-bottom: 60px
+    &__button
+      padding: 0
+      height: 40px
+    &__buttons
+      gap: 14px
+    &__radio
+      &__img
+        margin-bottom: 12px
+      &__text
+        font-size: 10px
+    &__box
+      &__row
+        grid-template-columns: repeat(auto-fill, 90px)
+        gap: 12px
+        margin: 0 auto 50px
+        max-width: 396px
+      &__question
+        font-size: 18px
+        margin-bottom: 40px
+      &__header
+        margin-bottom: 30px
+      &__progress
+        margin-bottom: 35px
+      &__title
+        font-size: 20px
+      &__step
+        span
+          font-size: 14px
+          width: 30px
+          height: 30px
 
   .we
     margin-bottom: 60px
@@ -49,6 +84,19 @@
 
   .tasks
     margin-bottom: 60px
+    &__title-box
+      margin-bottom: 40px
+      max-width: 400px
+    &__title
+      font-size: 20px
+      display: inline
+      color: #102770
+    &__subtitle
+      display: inline
+      font-size: 20px
+      color: #102770
+      span
+        color: #ab3bef
     &__arrows
       flex-direction: row
     &__text
@@ -236,9 +284,6 @@
     &__title
       font-size: 35px
       margin-bottom: 30px
-      span
-        font-size: 30px
-        transform: translateY(6px)
 
   .menu
     display: flex

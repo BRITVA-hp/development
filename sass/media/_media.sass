@@ -2,6 +2,15 @@
 @import "1440"
 
 @media screen and (max-width: 1200px)
+  .quiz
+    &__row
+      flex-direction: column
+    &__title
+      margin-bottom: 0
+      text-align: center
+    &__img
+      display: none
+
   .steps
     &__block
       max-width: 450px
@@ -33,6 +42,13 @@
         margin-right: auto
 
 @media screen and (max-width: 575px)
+  .quiz
+    padding: 0
+    &__title
+      padding: 0 20px
+    &__box
+      padding: 40px 20px
+
   .info
     padding: 0
 

@@ -1,10 +1,37 @@
 .quiz
+  margin-bottom: 120px
+  &__title
+    margin-bottom: 130px
+  &__img
+    display: block
+    margin: auto
   &__radio
     cursor: pointer
+    text-align: center
+    &__img
+      display: flex
+      align-items: center
+      justify-content: center
+      margin-bottom: 20px
+    &__text
+      font-size: 14px
+  &__buttons
+    display: flex
+    align-items: center
+    justify-content: flex-end
+    gap: 20px
+  &__button
+    max-width: 160px
+    background: transparent
+    border: 2px solid #1e5bb6
+    color: #1e5bb6
+    &:hover
+      color: #fff
+      background: #1e5bb6
   &__row
     display: flex
-    align-items: stretch
     justify-content: space-between
+    gap: 30px
   &__box
     border-radius: 7px
     background: rgba(48, 157, 218, 0.1)
@@ -13,6 +40,8 @@
       display: grid
       gap: 40px
       grid-template-columns: repeat(4, 120px)
+      margin-bottom: 58px
+      justify-content: center
     &__question
       font-family: 'GothamPro', sans-serif
       font-weight: 700
