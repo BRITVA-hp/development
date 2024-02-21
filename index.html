@@ -415,7 +415,25 @@
             <img class="quiz__img" src="img/quiz/img.png" alt="quiz">
           </div>
 
-          <div class="quiz__box">
+          <div class="quiz__last">
+            <p class="quiz__last__title">Заполните форму, чтобы мы могли связаться с вами.</p>
+            <form action="#" class="quiz__last__box">
+              <div class="input-group quiz__last__input-group">
+                <input placeholder="Имя" type="text" class="input quiz__last__input">
+              </div>
+              <div class="input-group quiz__last__input-group">
+                <input placeholder="Телефон" type="tel" class="input quiz__last__input">
+              </div>
+              <button class="button quiz__last__button">узнать стоимость</button>
+              <label class="politics politics--last">
+                <input class="politics__input" type="checkbox">
+                <span class="politics__ok"></span>
+                <span class="politics__text">Я согласен с <a href="#">политикой конфиденциальности</a></span>
+              </label>
+            </form>
+          </div>
+
+          <div style="display: none" class="quiz__box">
             <div class="quiz__box__header">
               <p class="quiz__box__title">Расчет стоимости</p>
               <div class="quiz__box__step">
@@ -428,22 +446,22 @@
             </div>
             <p class="quiz__box__question">Какой сайт вам нужен?</p>
 
-            <div class="input-group quiz__input-group">
-              <p class="quiz__input-group__title">Если нет, то просто переходите к следующему вопросу</p>
-              <input type="text" placeholder="Адрес сайта" class="input quiz__input">
-            </div>
+<!--            <div class="input-group quiz__input-group">-->
+<!--              <p class="quiz__input-group__title">Если нет, то просто переходите к следующему вопросу</p>-->
+<!--              <input type="text" placeholder="Адрес сайта" class="input quiz__input">-->
+<!--            </div>-->
 
             <div class="quiz__range">
-              <input value="1 500 000" type="text" class="quiz__range__field quiz__range__field--1">
-              <span class="quiz__range__field__text">₽</span>
-              <div class="quiz__range__range-box">
-                <div class="quiz__range__range-box__range">
-                  <div class="quiz__range__range-box__range-min-val">100 тыс.</div>
-                  <span class="calc__range__track calc__range__track--1"></span>
-                  <input class="calc__range__input calc__range__input--1" type="range" min="100000" max="15000000" value="1500000" step="1">
-                  <div class="calc__range-max-val">15 млн.</div>
+              <div class="quiz__range__box">
+                <div class="quiz__range__wrap">
+                  <div class="quiz__range__min">1</div>
+                  <span class="quiz__range__track"></span>
+                  <input class="quiz__range__input" type="range" min="1" max="31" value="8" step="1">
+                  <div class="quiz__range__max">31</div>
                 </div>
               </div>
+
+              <input value="8" type="text" class="quiz__range__field input">
             </div>
 
 <!--            <div class="quiz__box__row&#45;&#45;min">-->
@@ -597,6 +615,104 @@
       </div>
     </section>
     <!-- /.section quiz -->
+
+    <section class="section faq">
+      <div class="container faq__container">
+        <h3 class="section__title faq__title">Вопрос - <span>ответ</span></h3>
+        <div class="faq__row">
+
+          <div class="faq__box">
+
+            <div class="faq__item">
+              <div class="faq__item__header">
+                <span>Можно ли будет вносить правки и добавлять новые страницы без помощи программиста?</span>
+                <div class="faq__item__plus"></div>
+              </div>
+              <div class="faq__item__text">Да, мы научим администрировать сайт, менять текст и медиа-контент. При необходимости проведем или запишем обучение. Вы или ваши сотрудники смогут редактировать сайт без навыков программирования.</div>
+            </div>
+
+            <div class="faq__item">
+              <div class="faq__item__header">
+                <span>С чем можно интегрировать сайт?</span>
+                <div class="faq__item__plus"></div>
+              </div>
+              <div class="faq__item__text">Сервисы веб-аналитики, CRM-системы, платежные системы, сервисы доставки, сквозная аналитика, callback, соцсети, онлайн чаты и др.</div>
+            </div>
+
+            <div class="faq__item">
+              <div class="faq__item__header">
+                <span>Как и когда происходит оплата?</span>
+                <div class="faq__item__plus"></div>
+              </div>
+              <div class="faq__item__text">Мы работаем как юридическое лицо, заключаем договор и фиксируем цену. Делим проект на три этапа, перед каждым этапом берем предоплату.</div>
+            </div>
+
+            <div class="faq__item">
+              <div class="faq__item__header">
+                <span>SEO. Сайт будет оптимизирован под поисковую выдачу?</span>
+                <div class="faq__item__plus"></div>
+              </div>
+              <div class="faq__item__text">Настраиваем редиректы, метатеги. Устанавливаем счетчики Метрики и Analytics. Прорабатываем description, ключевые слова, разметку по заголовкам, HTTPS, SSL-сертификат, robots.txt, sitemap.xml и т.д.</div>
+            </div>
+
+            <div class="faq__item">
+              <div class="faq__item__header">
+                <span>Что будет если вы не уложитесь в сроки?</span>
+                <div class="faq__item__plus"></div>
+              </div>
+              <div class="faq__item__text">Мы гарантируем завершение работы точно в срок, в противном случае снижаем наше вознаграждения</div>
+            </div>
+
+          </div>
+
+          <div class="faq__box">
+
+            <div class="faq__item">
+              <div class="faq__item__header">
+                <span>С какими тематиками бизнеса вы не работаете?</span>
+                <div class="faq__item__plus"></div>
+              </div>
+              <div class="faq__item__text">Наша задача приносить пользу людям, а не вводить их в заблуждение. Мы никогда не возьмемся за рекламу финансовых пирамид и фирм-однодневок.</div>
+            </div>
+
+            <div class="faq__item">
+              <div class="faq__item__header">
+                <span>Куда будут приходить заявки?</span>
+                <div class="faq__item__plus"></div>
+              </div>
+              <div class="faq__item__text">На почту, в telegram, AmoCRM, Bitrix24, google-таблицы, внутренняя CRM, Slack, Zapier, Trello и др.</div>
+            </div>
+
+            <div class="faq__item">
+              <div class="faq__item__header">
+                <span>Кому будет принадлежать сайт, домен и хостинг?</span>
+                <div class="faq__item__plus"></div>
+              </div>
+              <div class="faq__item__text">По завершению работ мы полностью передаем сайт и аккаунт хостинга вам в собственность. Доменное имя регистрируется на вас изначально. За собой оставляем только право на демонстрацию результатов нашей работы в разделе кейсы.</div>
+            </div>
+
+            <div class="faq__item">
+              <div class="faq__item__header">
+                <span>Вы сделаете сайт так как я хочу?</span>
+                <div class="faq__item__plus"></div>
+              </div>
+              <div class="faq__item__text">В первую очередь мы делаем сайты, которые приносят результат. При разработке учитываем все ваши пожелания. Но если то, что вы хотите, работать не будет - мы предложим альтернативы. Обоснуем, что и как лучше сделать.</div>
+            </div>
+
+            <div class="faq__item">
+              <div class="faq__item__header">
+                <span>Отчитываетесь о ходе работ?</span>
+                <div class="faq__item__plus"></div>
+              </div>
+              <div class="faq__item__text">Вы получаете отчет по каждому этапу. В любой день вы можете выйти на связь с личным менеджером и узнать все детали о ходе работ по вашему проекту.</div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- /.section faq -->
 
   </main>
 

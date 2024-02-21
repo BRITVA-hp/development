@@ -15,6 +15,59 @@ document.addEventListener('DOMContentLoaded', () => {
   const observer = lozad();
   observer.observe();
 
+  // маска
+  function prettify(num) {
+    var n = num.toString();
+    return n.replace(/(\d{1,3}(?=(?:\d\d\d)+(?!\d)))/g, "$1" + ' ');
+  }
+
+
+  function range(rangeInputSum_, rangeTrackSum_, inputSum_) {
+    const rangeInputSum = document.querySelector(rangeInputSum_),
+      rangeTrackSum = document.querySelector(rangeTrackSum_),
+      inputSum = document.querySelector(inputSum_);
+
+
+    let minSum = +rangeInputSum.getAttribute('min'),
+      maxSum = +rangeInputSum.getAttribute('max'),
+      stepSum = +rangeInputSum.getAttribute('step');
+
+    rangeInputSum.addEventListener('input', function() {
+      let position = 100 / (maxSum - stepSum) * (this.value - stepSum);
+
+      rangeTrackSum.style.width = `${position}%`;
+      inputSum.value = prettify(this.value);
+    });
+
+    inputSum.addEventListener('input', function () {
+      this.value = prettify(this.value.replace(/\D/g, ''))
+      if (this.value.replace(/\D/g, '') > maxSum) {
+        this.value = prettify(maxSum)
+      }
+      if(this.value.replace(/\D/g, '') < minSum) {
+        rangeInputSum.value = 0
+        rangeTrackSum.style.width = 0 + '%'
+        return
+      }
+      if (this.value.replace(/\D/g, '') >= minSum && this.value.replace(/\D/g, '') <= maxSum)  {
+        rangeTrackSum.style.width = `${100 / (maxSum - stepSum) * (this.value.replace(/\D/g, '') - stepSum)}%`;
+        rangeInputSum.value = this.value.replace(/\D/g, '')
+      }
+    })
+  }
+
+  range('.quiz__range__input', '.quiz__range__track', '.quiz__range__field')
+
+  //faq
+
+  const faqItems = document.querySelectorAll('.faq__item')
+
+  faqItems.forEach(item => {
+    item.querySelector('.faq__item__header').addEventListener('click', () => {
+      item.classList.toggle('faq__item--active')
+    })
+  })
+
 // modal
 
   // function calcScroll() {

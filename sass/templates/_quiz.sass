@@ -1,5 +1,30 @@
 .quiz
   margin-bottom: 120px
+  &__last
+    width: 100%
+    max-width: 760px
+    border-radius: 7px
+    background: rgba(48, 157, 218, 0.1)
+    padding: 100px 20px
+    &__title
+      font-family: 'GothamPro', sans-serif
+      font-weight: 700
+      font-size: 25px
+      line-height: 120%
+      letter-spacing: -0.03em
+      text-transform: uppercase
+      text-align: center
+      color: #102770
+      margin: 0 auto 40px
+      max-width: 585px
+    &__box
+      max-width: 380px
+      margin: auto
+    &__input-group
+      margin-bottom: 15px
+    &__button
+      margin-bottom: 20px
+      max-width: none
   &__title
     margin-bottom: 130px
   &__img
@@ -152,3 +177,66 @@
       height: 100%
       width: 30%
       background: #94e7fb
+
+  &__range
+    margin-bottom: 100px
+    &__box
+      width: 100%
+      margin-bottom: 34px
+    &__min
+      position: absolute
+      left: -2px
+      bottom: -26px
+      font-weight: 400
+      font-size: 14px
+      line-height: 120%
+      color: rgba(7, 20, 46, 0.6)
+    &__max
+      position: absolute
+      right: -5px
+      bottom: -28px
+      font-weight: 400
+      font-size: 14px
+      line-height: 120%
+      color: rgba(7, 20, 46, 0.6)
+    &__wrap
+      position: relative
+      height: 2px
+      background: #fdfdfd
+      border-radius: 2px
+    &__input::-webkit-slider-thumb
+      width: 22px
+      height: 22px
+    &__input
+      -webkit-appearance: none
+      -moz-appearance: none
+      appearance: none
+      width: 100%
+      position: absolute
+      z-index: 2
+      background: none
+      opacity: 0
+      cursor: pointer
+      height: 40px
+      left: 0
+      top: -20px
+      line-height: 40px
+    &__track
+      position: absolute
+      height: 100%
+      background: #94e7fb
+      display: block
+      z-index: 1
+      border-radius: 2px
+      width: 10%
+      &:after
+        width: 15px
+        height: 15px
+        position: absolute
+        content: ''
+        right: -6px
+        top: -6px
+        cursor: pointer
+        z-index: 2
+        border-radius: 50%
+        background: #94e7fb
