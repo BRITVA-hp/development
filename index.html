@@ -427,37 +427,161 @@
               <div class="quiz__progress__inner"></div>
             </div>
             <p class="quiz__box__question">Какой сайт вам нужен?</p>
-            <div class="quiz__box__row">
 
-              <label class="quiz__radio">
-                <span class="quiz__radio__img">
-                  <img src="img/quiz/quest1-1.png" alt="quiz">
-                </span>
-                <span class="quiz__radio__text">Лендинг</span>
-              </label>
-
-              <label class="quiz__radio">
-                <span class="quiz__radio__img">
-                  <img src="img/quiz/quest1-2.png" alt="quiz">
-                </span>
-                <span class="quiz__radio__text">Многостраничный сайт</span>
-              </label>
-
-              <label class="quiz__radio">
-                <span class="quiz__radio__img">
-                  <img src="img/quiz/quest1-3.png" alt="quiz">
-                </span>
-                <span class="quiz__radio__text">Интернет-магазин</span>
-              </label>
-
-              <label class="quiz__radio">
-                <span class="quiz__radio__img">
-                  <img src="img/quiz/quest1-4.png" alt="quiz">
-                </span>
-                <span class="quiz__radio__text">Не знаю/Другой вариант</span>
-              </label>
-
+            <div class="input-group quiz__input-group">
+              <p class="quiz__input-group__title">Если нет, то просто переходите к следующему вопросу</p>
+              <input type="text" placeholder="Адрес сайта" class="input quiz__input">
             </div>
+
+            <div class="quiz__range">
+              <input value="1 500 000" type="text" class="quiz__range__field quiz__range__field--1">
+              <span class="quiz__range__field__text">₽</span>
+              <div class="quiz__range__range-box">
+                <div class="quiz__range__range-box__range">
+                  <div class="quiz__range__range-box__range-min-val">100 тыс.</div>
+                  <span class="calc__range__track calc__range__track--1"></span>
+                  <input class="calc__range__input calc__range__input--1" type="range" min="100000" max="15000000" value="1500000" step="1">
+                  <div class="calc__range-max-val">15 млн.</div>
+                </div>
+              </div>
+            </div>
+
+<!--            <div class="quiz__box__row&#45;&#45;min">-->
+
+<!--              <label class="quiz__radio">-->
+<!--                <input class="quiz__radio__input" name="quiz" type="radio">-->
+<!--                <span class="quiz__radio__content">-->
+<!--                  <span class="quiz__radio__ok"></span>-->
+<!--                  <span class="quiz__radio__img">-->
+<!--                    <img src="img/quiz/quest2-1.png" alt="quiz">-->
+<!--                  </span>-->
+<!--                  <span class="quiz__radio__text">Техническое задание</span>-->
+<!--                </span>-->
+<!--              </label>-->
+
+<!--              <label class="quiz__radio">-->
+<!--                <input class="quiz__radio__input" name="quiz" type="radio">-->
+<!--                <span class="quiz__radio__content">-->
+<!--                  <span class="quiz__radio__ok"></span>-->
+<!--                  <span class="quiz__radio__img">-->
+<!--                    <img src="img/quiz/quest2-2.png" alt="quiz">-->
+<!--                  </span>-->
+<!--                  <span class="quiz__radio__text">Тексты</span>-->
+<!--                </span>-->
+<!--              </label>-->
+
+<!--              <label class="quiz__radio">-->
+<!--                <input class="quiz__radio__input" name="quiz" type="radio">-->
+<!--                <span class="quiz__radio__content">-->
+<!--                  <span class="quiz__radio__ok"></span>-->
+<!--                  <span class="quiz__radio__img">-->
+<!--                    <img src="img/quiz/quest2-3.png" alt="quiz">-->
+<!--                  </span>-->
+<!--                  <span class="quiz__radio__text">Фирменный стиль</span>-->
+<!--                </span>-->
+<!--              </label>-->
+
+<!--              <label class="quiz__radio">-->
+<!--                <input class="quiz__radio__input" name="quiz" type="radio">-->
+<!--                <span class="quiz__radio__content">-->
+<!--                  <span class="quiz__radio__ok"></span>-->
+<!--                  <span class="quiz__radio__img">-->
+<!--                    <img src="img/quiz/quest2-4.png" alt="quiz">-->
+<!--                  </span>-->
+<!--                  <span class="quiz__radio__text">Изображения / Видео</span>-->
+<!--                </span>-->
+<!--              </label>-->
+
+<!--              <label class="quiz__radio">-->
+<!--                <input class="quiz__radio__input" name="quiz" type="radio">-->
+<!--                <span class="quiz__radio__content">-->
+<!--                  <span class="quiz__radio__ok"></span>-->
+<!--                  <span class="quiz__radio__img">-->
+<!--                    <img src="img/quiz/quest2-5.png" alt="quiz">-->
+<!--                  </span>-->
+<!--                  <span class="quiz__radio__text">Логотип</span>-->
+<!--                </span>-->
+<!--              </label>-->
+
+<!--              <label class="quiz__radio">-->
+<!--                <input class="quiz__radio__input" name="quiz" type="radio">-->
+<!--                <span class="quiz__radio__content">-->
+<!--                  <span class="quiz__radio__ok"></span>-->
+<!--                  <span class="quiz__radio__img">-->
+<!--                    <img src="img/quiz/quest2-6.png" alt="quiz">-->
+<!--                  </span>-->
+<!--                  <span class="quiz__radio__text">Анализ рынка</span>-->
+<!--                </span>-->
+<!--              </label>-->
+
+<!--              <label class="quiz__radio">-->
+<!--                <input class="quiz__radio__input" name="quiz" type="radio">-->
+<!--                <span class="quiz__radio__content">-->
+<!--                  <span class="quiz__radio__ok"></span>-->
+<!--                  <span class="quiz__radio__img">-->
+<!--                    <img src="img/quiz/quest2-7.png" alt="quiz">-->
+<!--                  </span>-->
+<!--                  <span class="quiz__radio__text">Структура сайта</span>-->
+<!--                </span>-->
+<!--              </label>-->
+
+<!--              <label class="quiz__radio">-->
+<!--                <input class="quiz__radio__input" name="quiz" type="radio">-->
+<!--                <span class="quiz__radio__content">-->
+<!--                  <span class="quiz__radio__ok"></span>-->
+<!--                  <span class="quiz__radio__img">-->
+<!--                    <img src="img/quiz/quest2-8.png" alt="quiz">-->
+<!--                  </span>-->
+<!--                  <span class="quiz__radio__text">Ничего из этого нет, сделайте</span>-->
+<!--                </span>-->
+<!--              </label>-->
+
+<!--            </div>-->
+
+<!--            <div class="quiz__box__row">-->
+
+<!--              <label class="quiz__radio">-->
+<!--                <input class="quiz__radio__input" name="quiz" type="radio">-->
+<!--                <span class="quiz__radio__content">-->
+<!--                  <span class="quiz__radio__ok"></span>-->
+<!--                  <span class="quiz__radio__img">-->
+<!--                    <img src="img/quiz/quest1-1.png" alt="quiz">-->
+<!--                  </span>-->
+<!--                  <span class="quiz__radio__text">Лендинг</span>-->
+<!--                </span>-->
+<!--              </label>-->
+
+<!--              <label class="quiz__radio">-->
+<!--                <input class="quiz__radio__input" name="quiz" type="radio">-->
+<!--                <span class="quiz__radio__content">-->
+<!--                  <span class="quiz__radio__img">-->
+<!--                    <img src="img/quiz/quest1-2.png" alt="quiz">-->
+<!--                  </span>-->
+<!--                  <span class="quiz__radio__text">Многостраничный сайт</span>-->
+<!--                </span>-->
+<!--              </label>-->
+
+<!--              <label class="quiz__radio">-->
+<!--                <input class="quiz__radio__input" name="quiz" type="radio">-->
+<!--                <span class="quiz__radio__content">-->
+<!--                  <span class="quiz__radio__img">-->
+<!--                    <img src="img/quiz/quest1-3.png" alt="quiz">-->
+<!--                  </span>-->
+<!--                  <span class="quiz__radio__text">Интернет-магазин</span>-->
+<!--                </span>-->
+<!--              </label>-->
+
+<!--              <label class="quiz__radio">-->
+<!--                <input class="quiz__radio__input" name="quiz" type="radio">-->
+<!--                <span class="quiz__radio__content">-->
+<!--                  <span class="quiz__radio__img">-->
+<!--                    <img src="img/quiz/quest1-4.png" alt="quiz">-->
+<!--                  </span>-->
+<!--                  <span class="quiz__radio__text">Не знаю/Другой вариант</span>-->
+<!--                </span>-->
+<!--              </label>-->
+
+<!--            </div>-->
 
             <div class="quiz__buttons">
               <button class="button button--back">

@@ -3,6 +3,8 @@
 
 @media screen and (max-width: 1200px)
   .quiz
+    &__box
+      margin: auto
     &__row
       flex-direction: column
     &__title
@@ -44,10 +46,34 @@
 @media screen and (max-width: 575px)
   .quiz
     padding: 0
+    &__input-group
+      &__title
+        margin-bottom: 10px
+    &__input
+      font-size: 12px
+      padding: 15px 12px
+      border-radius: 7px
     &__title
       padding: 0 20px
     &__box
       padding: 40px 20px
+      &__row
+        &--min
+          grid-template-columns: repeat(auto-fill, 150px)
+          gap: 10px
+          .quiz__radio__input
+            &:checked + .quiz__radio__content
+              .quiz__radio__ok
+                background: url('../img/quiz/ok.svg') no-repeat center/5px
+          .quiz__radio__img
+            width: 28px
+            min-width: 28px
+            height: 28px
+            border-radius: 5px
+          .quiz__radio__ok
+            width: 10px
+            height: 10px
+            min-width: 10px
 
   .info
     padding: 0
