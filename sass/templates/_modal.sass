@@ -24,3 +24,55 @@
         min-height: 100%
         justify-content: center
         padding: 20px
+    &__dialog
+        position: relative
+        border-radius: 7px
+        background: #fdfdfd
+        overflow: hidden
+        width: 100%
+        max-width: 800px
+        &::before
+            background: rgba(48, 157, 218, 0.1)
+            z-index: 1
+            content: ''
+            position: absolute
+            left: 0
+            top: 0
+            right: 0
+            bottom: 0
+    &__content
+        position: relative
+        z-index: 2
+        padding: 100px 40px
+    &__close
+        position: absolute
+        cursor: pointer
+        right: 28px
+        top: 22px
+    &__title
+        font-family: 'GothamPro', sans-serif
+        font-weight: 900
+        font-size: 25px
+        line-height: 120%
+        letter-spacing: -0.05em
+        text-transform: uppercase
+        text-align: center
+        color: #102770
+    &__subtitle
+        font-family: 'GothamPro', sans-serif
+        font-weight: 900
+        font-size: 20px
+        line-height: 120%
+        text-transform: uppercase
+        text-align: center
+        color: #ab3bef
+        margin-bottom: 60px
+    &__form
+        width: 100%
+        max-width: 380px
+        margin: auto
+    &__button
+        max-width: none
+        margin-bottom: 15px
+    &__input-group
+        margin-bottom: 15px

@@ -34,7 +34,7 @@
 
           <nav class="header__nav">
             <a href="#" class="header__nav__link header__nav__link--active">Главная</a>
-            <a href="#" class="header__nav__link">Кейсы</a>
+            <a href="#cases" class="header__nav__link">Кейсы</a>
             <a href="#" class="header__nav__link">Контакты</a>
           </nav>
         </div>
@@ -45,7 +45,7 @@
             <span>+7 (965) 283-48-17</span>
           </a>
 
-          <button class="button header__button">Заказать звонок</button>
+          <button data-modal class="button header__button">Заказать звонок</button>
         </div>
 
         <div class="header__block">
@@ -102,7 +102,7 @@
         <div class="quest__box">
           <h2 class="quest__title">Рассчитайте стоимость сайта,</h2>
           <p class="quest__text">ответив на 5 вопросов</p>
-          <button class="button quest__button">Рассчитать</button>
+          <button data-modal class="button quest__button">Рассчитать</button>
           <picture class="quest__img">
             <source media="(max-width: 1440px)" srcset="img/quest/imgM.png">
             <img src="img/quest/img.png" alt="price">
@@ -173,7 +173,7 @@
           </picture>
           <div class="offer__block">
             <h3 class="section__title offer__title">Получите коммерческое предложение <br> <span>с перечнем работ, ценами и сроками</span> </h3>
-            <button class="button offer__button">получить</button>
+            <button data-modal class="button offer__button">получить</button>
           </div>
         </div>
       </div>
@@ -221,7 +221,7 @@
                 <source data-src="img/steps/video1.mp4" type="video/mp4">
               </video>
             </div>
-            <div class="steps__more">
+            <div data-modal class="steps__more">
               <span>ПОДРОБНЕЕ</span>
               <img src="img/steps/arrow.svg" alt="arrow">
             </div>
@@ -232,7 +232,7 @@
     </section>
     <!-- /.section steps -->
 
-    <section class="section cases">
+    <section id="cases" class="section cases">
       <div class="container cases__container">
         <h3 class="section__title cases__title">ПРИМЕРЫ <br> <span>НАШИХ ПРОЕКТОВ</span></h3>
         <div class="cases__window">
@@ -384,7 +384,7 @@
           <div class="info__box">
             <h3 class="info__title">В МАЕ 2023 МЫ СОБРАЛИ ПРЕДЛОЖЕНИЯ ПО РАЗРАБОТКЕ САЙТОВ.</h3>
             <p class="info__subtitle">ПРОАНАЛИЗИРОВАЛИ ЦЕНЫ И ЧТО В НИХ ВХОДИТ</p>
-            <button class="button info__button">получить</button>
+            <button data-modal class="button info__button">получить</button>
           </div>
         </div>
         <picture class="info__img">
@@ -714,7 +714,50 @@
     </section>
     <!-- /.section faq -->
 
+    <section class="section send">
+      <div class="container send__container">
+        <div class="send__content">
+          <form action="#" class="send__form">
+            <h3 class="send__title">ОСТАВЬТЕ ЗАЯВКУ - МЫ ПОЗВОНИМ ВАМ</h3>
+            <p class="send__subtitle">ЧТОБЫ ПРЕДЛОЖИТЬ ЛУЧШЕЕ РЕШЕНИЕ</p>
+            <div class="send__row">
+              <div class="input-group send__input-group">
+                <input type="text" placeholder="Имя" class="input send__input">
+              </div>
+              <div class="input-group send__input-group">
+                <input type="text" placeholder="Телефон" class="input send__input">
+              </div>
+              <button class="button send__button">отправить</button>
+            </div>
+            <p class="send__text">Нажимая на кнопку «Отправить», вы соглашаетесь на обработку ваших персональных данных</p>
+          </form>
+          <picture class="send__img">
+            <source media="(max-width: 1440px)" srcset="img/send/imgM.png">
+            <img src="img/send/img.png" alt="send">
+          </picture>
+        </div>
+      </div>
+    </section>
+    <!-- /.section send -->
+
   </main>
+
+  <footer class="footer section">
+    <div class="container footer__container">
+      <div class="footer__row">
+        <div class="logo footer__logo">
+          <p class="logo__text">Inc</p>
+          <p class="logo__title"><span>.</span> WEB</p>
+        </div>
+        <p class="footer__text">Отправляя формы с этого сайта, вы принимаете политику конфиденциальности</p>
+        <a href="tel:+79652834817" class="footer__tel">
+          <img src="img/tel.png" alt="phone">
+          <span>+7 (965) 283-48-17</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+  <!-- /.footer section -->
 
   <div class="menu">
     <div class="menu__dialog">
@@ -729,13 +772,39 @@
         </div>
         <nav class="menu__nav">
           <a href="#" class="menu__link menu__link--active">Главная</a>
-          <a href="#" class="menu__link">Кейсы</a>
+          <a href="#cases" class="menu__link">Кейсы</a>
           <a href="#" class="menu__link">Контакты</a>
         </nav>
         <a href="tel:+79652834817" class="menu__tel">
           <img src="img/telM.png" alt="telephone">
           <span>+7 (965) 283-48-17</span>
         </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal">
+    <div class="modal__container">
+      <div class="modal__dialog">
+        <div class="modal__content">
+          <img src="img/close.svg" alt="close" class="modal__close">
+          <p class="modal__title">МЫ ПОЗВОНИМ ВАМ</p>
+          <p class="modal__subtitle">ЧТОБЫ ПРЕДЛОЖИТЬ ЛУЧШЕЕ РЕШЕНИЕ</p>
+          <form action="#" class="modal__form">
+            <div class="input-group modal__input-group">
+              <input type="text" placeholder="Имя" class="input modal__input">
+            </div>
+            <div class="input-group modal__input-group">
+              <input type="tel" placeholder="Телефон" class="input modal__input">
+            </div>
+            <button class="button modal__button">отправить</button>
+            <label class="politics">
+              <input type="checkbox" class="politics__input">
+              <span class="politics__ok"></span>
+              <span class="politics__text">Я согласен с <a href="#">политикой конфиденциальности</a></span>
+            </label>
+          </form>
+        </div>
       </div>
     </div>
   </div>
